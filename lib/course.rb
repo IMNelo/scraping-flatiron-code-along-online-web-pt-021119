@@ -16,7 +16,7 @@ class Course
   end
 
   def self.reset_all
-    @@all.clear
+    @@all.clear #refactor to-> @@all = []
   end
 
 end
